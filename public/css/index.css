@@ -389,3 +389,21 @@ html .clear-completed:active {
 	box-shadow: 0 0 2px 2px #CF7D7D;
 	outline: 0;
 }
+
+.todoindex h2 {
+	padding-bottom: 48px;
+	font-size: 28px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.todoindex .button {
+	padding: 13px 45px;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	border-radius: 5px;
+	background: #d83f45;
+	display: flex;
+	justify-content: center;
+}

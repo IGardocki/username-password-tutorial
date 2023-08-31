@@ -116,4 +116,9 @@ router.post('/clear-completed', function(req, res, next) {
   });
 });
 
+router.get('/cats', function(req, res,next){
+  console.log('todo: see cats')
+  res.render('cats')
+});
+
 module.exports = router;
